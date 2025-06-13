@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Orinoco - Panier</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <a href="./index.html">Accueil</a>
+
+  <h1>Votre panier</h1>
+  <div id="cart-items"></div>
+  <p id="total-price"></p>
+
+  <h2>Formulaire de commande</h2>
+  <form id="order-form">
+    <input type="text" name="firstName" placeholder="Prénom" required>
+    <input type="text" name="lastName" placeholder="Nom" required>
+    <input type="text" name="address" placeholder="Adresse" required>
+    <input type="text" name="city" placeholder="Ville" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <button type="submit">Valider la commande</button>
+  </form>
+
+  <script type="module" src="../js/cart.js"></script>
+</body>
+</html>
